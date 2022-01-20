@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">ReservaYa_Prototipo</string>
+    <string name="TextosBotones">TextosBotones</string>
+    <string name="ReservaYa">ReservaYa</string>
+    <string name="Buscar"> Buscar </string>
+    <string name="Restaurantes">Restaurantes</string>
+    <string name="Hoteles">Hoteles</string>
+    <string name="Estadio" > Estadio</string>
+    <string name="cine">Cine</string>
+    <string name="Consultorio_Medico"> Consultorio Medico </string>
+    <string name="Octometrista">Octometrista</string>
+    <string name="Peluqueria">Peluqueria</string>
+    <string name="Consultorio_Juridico">Consultorio Juridico</string>
+    <string name="Discoteca">Hoteles</string>
+    <string name="Aceptar" > Aceptar</string>
+    <string name="Cancelar"> Cancelar </string>
+    <string name="reservaYa2">reservaYa2</string>
+    <string name="Inicio"> Inicio </string>
+    <string name="Perfil" > Perfil </string>
+    <string name="Mis_Reservaciones"> Mis reservaciones </string>
+    <string name="Reservaciones_expiradas"> Reservaciones expiradas </string>
+    <string name="Politica_privacidad"> Politica de Privacidad </string>
 </resources>

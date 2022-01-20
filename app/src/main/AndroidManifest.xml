@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReservaYa_Prototipo">
         <activity
+            android:name=".Activity_menuOpciones"
+            android:exported="false" />
+        <activity
+            android:name=".activity_menuPrincipal"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
