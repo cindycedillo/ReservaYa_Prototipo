@@ -5,19 +5,41 @@
     <string name="Buscar"> Buscar </string>
     <string name="Restaurantes">Restaurantes</string>
     <string name="Hoteles">Hoteles</string>
-    <string name="Estadio" > Estadio</string>
+    <string name="Estadio"> Estadio</string>
     <string name="cine">Cine</string>
     <string name="Consultorio_Medico"> Consultorio Medico </string>
     <string name="Octometrista">Octometrista</string>
     <string name="Peluqueria">Peluqueria</string>
     <string name="Consultorio_Juridico">Consultorio Juridico</string>
     <string name="Discoteca">Hoteles</string>
-    <string name="Aceptar" > Aceptar</string>
+    <string name="Aceptar"> Aceptar</string>
     <string name="Cancelar"> Cancelar </string>
     <string name="reservaYa2">reservaYa2</string>
     <string name="Inicio"> Inicio </string>
-    <string name="Perfil" > Perfil </string>
+    <string name="Perfil"> Perfil </string>
     <string name="Mis_Reservaciones"> Mis reservaciones </string>
     <string name="Reservaciones_expiradas"> Reservaciones expiradas </string>
     <string name="Politica_privacidad"> Politica de Privacidad </string>
+    <string name="txt_Usuario_Cliente"> Usaurio del cliente </string>
+    <string name="txt_nombre"> Nombre: </string>
+    <string name="txt_apellido"> Apellidos: </string>
+    <string name="txt_numero_de_contacto"> Numero de contacto: </string>
+    <string name="txt_establecimiento"> Tipo de establecimiento: </string>
+    <string name="txt_direccion"> Direccion: </string>
+    <string name="txt_fecha"> Fecha/Hora reservacion: </string>
+    <string name="txt_metodo_pago"> Metodo de pago: </string>
+    <string name="hint_usuario"> Ingrese su nombre de usuario </string>
+    <string name="hint_nombre"> Ingrese su Nombre </string>
+    <string name="hint_apellido"> Ingrese su Apellido </string>
+    <string name="hint_numero_contacto"> Ingrese su numero </string>
+    <string name="hint_direccion"> Ingrese su direccion </string>
+    <string name="hint_fecha"> Ingrese una fecha </string>
+    <string name="txt_efectivo"> Efectivo </string>
+    <string name="txt_tarjeta"> Tarjeta </string>
+    <string name="txt_otro"> Otro </string>
+    <string name="btn_enviar"> Enviar </string>
+    <string name="txt_mapa"> MAPA DE LUGARES </string>
+    <string name="btn_siguiente"> Siguiente </string>
+
+
 </resources>
