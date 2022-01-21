@@ -16,7 +16,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024"
-        app:srcCompat="@drawable/logo1_reservaya" />
+        app:srcCompat="@drawable/logo1_reservaya"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/t" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -28,7 +30,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
-        app:srcCompat="@drawable/logo2_reservaya" />
+        app:srcCompat="@drawable/logo2_reservaya"
+        android:contentDescription="@string/t" />
 
     <Button
         android:id="@+id/btnenviar"
@@ -44,6 +47,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="0dp"
         android:layout_height="4dp"
         android:orientation="vertical"
@@ -56,8 +60,8 @@
         android:id="@+id/rdbefecivo3"
         android:layout_width="89dp"
         android:layout_height="56dp"
-        android:layout_marginStart="164dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginBottom="108dp"
         android:text="@string/txt_efectivo"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -120,15 +124,18 @@
         android:layout_height="48dp"
         android:ems="10"
         android:hint="@string/hint_usuario"
-        android:hintTextColor="#757575"
+        android:hintTextColor="black"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.149" />
+        app:layout_constraintVertical_bias="0.149"/>
 
     <TextView
         android:id="@+id/textView7"
@@ -195,7 +202,8 @@
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.369"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:importantForAutofill="no" />
 
     <TextView
         android:id="@+id/textView8"
@@ -227,6 +235,7 @@
         android:ems="10"
         android:hint="@string/hint_apellido"
         android:hintTextColor="#757575"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -234,7 +243,8 @@
         app:layout_constraintHorizontal_bias="0.757"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintVertical_bias="0.326"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView9"
@@ -262,7 +272,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/txtusuariocliente"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.234"
+        tools:ignore="TextContrastCheck"/>
 
     <EditText
         android:id="@+id/txtdireccioncliente"
@@ -271,6 +282,7 @@
         android:ems="10"
         android:hint="@string/hint_direccion"
         android:hintTextColor="#757575"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -278,7 +290,8 @@
         app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.588"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/txtfecha"
@@ -295,6 +308,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView11"
         app:layout_constraintTop_toBottomOf="@+id/txtdireccioncliente"
         app:layout_constraintVertical_bias="0.048"
-        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TextContrastCheck"
+        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
