@@ -40,6 +40,19 @@
     <string name="btn_enviar"> Enviar </string>
     <string name="txt_mapa"> MAPA DE LUGARES </string>
     <string name="btn_siguiente"> Siguiente </string>
-
+    <string name="Ingreso">Ingresar</string>
+    <string name="Registro">Registrarse</string>
+    <string name="Saludo">Bienvenido/a</string>
+    <string name="slogan">TEAM WORK MAKES THE DREAMS WORKS</string>
+    <string name="ddsc">Reserva Ahora!  Rapido, Comodo y Seguro A su servicio :D </string>
+    <string name="tst_instit"> Como Usar ?</string>
+    <string name="tst_instdes">1....... 2.     3.     4.....5....... </string>
+    <string name="sesion">Iniciar Sesion</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="salir">X</string>
+    <string name="tst_instfoot"> Le Deseamos la mejor experiencia con nuestro servicio!!!!!!!!!!        \\(^-^)/</string>
+    <string name="t">TODO</string>
+    <string name="todo">TODO</string>
 
 </resources>

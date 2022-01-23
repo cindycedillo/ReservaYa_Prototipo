@@ -12,9 +12,14 @@
         android:id="@+id/logoIVDibujo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/t"
+        app:layout_constraintBottom_toTopOf="@+id/logoIVNombre"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111"
         app:srcCompat="@drawable/logo2_reservaya" />
 
     <ImageView
@@ -22,10 +27,12 @@
         android:layout_width="282dp"
         android:layout_height="317dp"
         android:layout_marginTop="80dp"
+        android:contentDescription="@string/t"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_bias="0.934"
         app:srcCompat="@drawable/logo1_reservaya" />
 </androidx.constraintlayout.widget.ConstraintLayout>

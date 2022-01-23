@@ -10,9 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ReservaYa_Prototipo">
         <activity
-            android:name=".ComprobanteReserva"
-            android:parentActivityName=".MenuReservas"
+            android:name=".activity_instrucciones"
             android:exported="false" />
+        <activity
+            android:name=".activity_iniciarSesion"
+            android:exported="false" />
+        <activity
+            android:name=".activity_pantallainicial"
+            android:exported="false" />
+        <activity
+            android:name=".ComprobanteReserva"
+            android:exported="false"
+            android:parentActivityName=".MenuReservas" />
         <activity
             android:name=".MenuReservas"
             android:exported="false" />
