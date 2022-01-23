@@ -34,6 +34,7 @@ public class Formulario extends AppCompatActivity {
                 setPendingIntent();
                 createNotificationChannel();
                 createNotification();
+                startActivity(new Intent(Formulario.this,ComprobanteReserva.class));
             }
         });
     }
@@ -69,6 +70,8 @@ public class Formulario extends AppCompatActivity {
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(getApplicationContext());
         notificationManagerCompat.notify(NOTIFICACION_ID, builder.build());
     }
+
+
 
 
 
