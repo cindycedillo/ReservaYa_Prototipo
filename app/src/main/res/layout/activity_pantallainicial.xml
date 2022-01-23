@@ -43,10 +43,10 @@
         android:text="@string/Ingreso"
         app:layout_constraintBottom_toTopOf="@+id/txttitulo"
         app:layout_constraintEnd_toStartOf="@+id/btregistro"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgnombre"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984" />
 
     <TextView
         android:id="@+id/txtdesc"
@@ -54,7 +54,7 @@
         android:layout_height="78dp"
         android:layout_marginTop="20dp"
         android:text="@string/ddsc"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/iop"
         app:layout_constraintBottom_toTopOf="@+id/imglogo"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,16 +66,14 @@
         android:id="@+id/btregistro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="209dp"
-        android:layout_marginEnd="52dp"
         android:backgroundTint="@color/kio"
         android:text="@string/Registro"
-        app:layout_constraintBottom_toTopOf="@+id/txttitulo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.121"
-        app:layout_constraintStart_toStartOf="@+id/imglogo"
-        app:layout_constraintTop_toBottomOf="@+id/imgnombre"
-        app:layout_constraintVertical_bias="0.611" />
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
 
     <TextView
         android:id="@+id/txttitulo"

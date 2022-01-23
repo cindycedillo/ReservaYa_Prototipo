@@ -22,9 +22,9 @@ public class activity_iniciarSesion extends AppCompatActivity {
         int ancho=medidas.widthPixels;
         int alto= medidas.heightPixels;
 
-        getWindow().setLayout((int)(ancho*0.97),(int)(alto*0.95));
+        getWindow().setLayout((int)(ancho*0.90),(int)(alto*0.90));
 
-        instrucciones=findViewById(R.id.btingresar);
+        instrucciones=findViewById(R.id.btaceptar);
 
         instrucciones.setOnClickListener(new View.OnClickListener() {
             @Override

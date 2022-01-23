@@ -10,7 +10,7 @@
     tools:context=".activity_iniciarSesion">
 
     <Button
-        android:id="@+id/btingresar2"
+        android:id="@+id/btaceptar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -18,14 +18,14 @@
         android:backgroundTint="@color/kio"
         android:text="@string/Aceptar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btingresar3"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/btcancelar"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lbcont"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.034" />
 
     <Button
-        android:id="@+id/btingresar3"
+        android:id="@+id/btcancelar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
@@ -87,19 +87,19 @@
         android:layout_marginBottom="14dp"
         android:text="@string/usuario"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#000000"
+        android:textColor="@color/c6"
         app:layout_constraintBottom_toTopOf="@+id/txtusuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.147"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txttitulo"
-        app:layout_constraintVertical_bias="0.813" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
 
     <EditText
         android:id="@+id/txtusuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="368dp"
+        android:autofillHints=" "
         android:background="@color/coffee"
         android:backgroundTint="@color/Coffee"
         android:ems="10"
@@ -110,10 +110,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgnombre"
-        app:layout_constraintVertical_bias="1.0"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck"
-        android:autofillHints=" " />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/lbcont"
@@ -121,19 +120,19 @@
         android:layout_height="wrap_content"
         android:text="@string/password"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="#000000"
+        android:textColor="@color/c6"
         app:layout_constraintBottom_toTopOf="@+id/txtcont"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtusuario"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97" />
 
     <EditText
         android:id="@+id/txtcont"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="236dp"
+        android:autofillHints=" "
         android:background="@color/coffee"
         android:backgroundTint="@color/Coffee"
         android:ems="10"
@@ -144,9 +143,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtusuario"
-        app:layout_constraintVertical_bias="0.892"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck"
-        android:autofillHints=" " />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

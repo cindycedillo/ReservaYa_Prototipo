@@ -14,18 +14,16 @@
         android:layout_width="198dp"
         android:layout_height="121dp"
         android:contentDescription="@string/t"
-        app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toStartOf="@+id/imgnombre2"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.298"
         app:srcCompat="@drawable/logo2_reservaya" />
 
     <ImageView
         android:id="@+id/imgnombre2"
-        android:layout_width="323dp"
-        android:layout_height="178dp"
+        android:layout_width="347dp"
+        android:layout_height="194dp"
         android:contentDescription="@string/t"
         app:layout_constraintBottom_toTopOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,26 +60,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="310dp"
-        android:layout_height="360dp"
-        android:text="@string/tst_instdes"
-        android:textColor="#E0E0E0"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14"
-        app:layout_constraintVertical_bias="0.286" />
-
-    <TextView
         android:id="@+id/textView18"
-        android:layout_width="303dp"
-        android:layout_height="56dp"
+        android:layout_width="309dp"
+        android:layout_height="58dp"
         android:text="@string/tst_instfoot"
         android:textColor="@color/c6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView16"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
