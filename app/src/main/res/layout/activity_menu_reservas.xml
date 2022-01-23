@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuReservas">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="413dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="680dp"
+        android:background="#d59548"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/boton_confirmadas"
+            android:layout_width="144dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#55211D"
+            android:text="Confirmadas"
+            android:textSize="12sp"
+            app:layout_constraintStart_toEndOf="@+id/boton_pendientes"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <Button
+            android:id="@+id/boton_pendientes"
+            android:layout_width="133dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#d59548"
+            android:textColor="@color/black"
+            android:text="Pendientes"
+            android:textSize="12sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/boton_confirmadas" />
+
+    <Button
+        android:id="@+id/boton_canceladas"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#d59548"
+        android:textColor="@color/black"
+        android:text="Canceladas"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toEndOf="@+id/boton_confirmadas"
+        app:layout_constraintTop_toTopOf="@+id/boton_confirmadas" />
+
+
+
+        <TextView
+            android:id="@+id/textViewHora"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Hora:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.116"
+            app:layout_constraintStart_toEndOf="@+id/textViewFecha2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTipo" />
+
+        <TextView
+            android:id="@+id/textViewHotel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Hotel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.467"
+            app:layout_constraintStart_toEndOf="@+id/textViewTipo"
+            app:layout_constraintTop_toBottomOf="@+id/textViewIncaReal" />
+
+        <TextView
+            android:id="@+id/textViewfecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Fecha:"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTipo" />
+
+        <TextView
+            android:id="@+id/textViewTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Tipo de establecimiento:"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewIncaReal" />
+
+        <TextView
+            android:id="@+id/textViewFecha2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:text="20/01/2022"
+            app:layout_constraintStart_toEndOf="@+id/textViewfecha"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTipo" />
+
+        <TextView
+            android:id="@+id/textViewHora2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:text="18:00"
+            app:layout_constraintStart_toEndOf="@+id/textViewHora"
+            app:layout_constraintTop_toBottomOf="@+id/textViewHotel" />
+
+        <TextView
+            android:id="@+id/textViewIncaReal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="84dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="88dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Inca Real"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/boton_confirmadas" />
+
+        <Button
+            android:id="@+id/boton_revisar"
+            android:layout_width="221dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#55211D"
+            android:text="Revisar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.133"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewFecha2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="132dp"
+            android:layout_height="135dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boton_pendientes"
+            app:srcCompat="@drawable/imagen_hotel" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="MIS RESERVAS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar"
+        app:layout_constraintTop_toTopOf="@+id/toolbar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
