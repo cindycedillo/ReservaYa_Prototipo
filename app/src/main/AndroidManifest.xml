@@ -24,6 +24,7 @@
             android:parentActivityName=".MenuReservas" />
         <activity
             android:name=".MenuReservas"
+            android:parentActivityName=".Activity_menuOpciones"
             android:exported="false" />
         <activity
             android:name=".Activity_mapa"
