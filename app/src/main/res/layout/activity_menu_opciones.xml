@@ -7,18 +7,18 @@
     tools:context=".Activity_menuOpciones">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/txtapp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="36dp"
         android:backgroundTint="@color/black"
-        android:text="ReservaYa"
+        android:text="@string/ReservaYa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btpolitica"
         android:layout_width="185dp"
         android:layout_height="68dp"
         android:backgroundTint="@color/colorboton"
@@ -26,67 +26,76 @@
         android:textColor="#4A148C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintHorizontal_bias="0.354"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintVertical_bias="0.172" />
+        app:layout_constraintTop_toBottomOf="@+id/btresvexp"
+        app:layout_constraintVertical_bias="0.438" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btresvexp"
         android:layout_width="181dp"
         android:layout_height="72dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginBottom="128dp"
         android:backgroundTint="@color/colorboton"
         android:text="@string/Reservaciones_expiradas"
         android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.339"
+        app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/btreservas" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btinicio"
         android:layout_width="180dp"
         android:layout_height="51dp"
         android:layout_marginTop="60dp"
         android:backgroundTint="@color/colorboton"
         android:text="@string/Inicio"
         android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.337"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/txtapp"
+        app:layout_constraintVertical_bias="0.044" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btperfil"
         android:layout_width="178dp"
         android:layout_height="53dp"
         android:layout_marginTop="28dp"
         android:backgroundTint="@color/colorboton"
         android:text="@string/Perfil"
         android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/btinicio"
+        app:layout_constraintVertical_bias="0.014"
+        tools:ignore="TextContrastCheck" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btreservas"
         android:layout_width="180dp"
         android:layout_height="57dp"
         android:layout_marginTop="40dp"
         android:backgroundTint="@color/colorboton"
         android:text="@string/Mis_Reservaciones"
         android:textColor="#4A148C"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/btperfil"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imglogomo"
         android:layout_width="80dp"
         android:layout_height="84dp"
+        android:contentDescription="@string/t"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.897"

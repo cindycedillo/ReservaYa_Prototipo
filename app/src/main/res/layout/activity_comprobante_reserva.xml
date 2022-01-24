@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/txttitulocom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="13dp"
@@ -97,7 +97,7 @@
             android:fontFamily="sans-serif-black"
             android:text="Dir. del establecimiento:"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/txtapp" />
 
     <TextView
         android:id="@+id/textView15"
@@ -108,8 +108,8 @@
         android:text="15 de Enero del 2022"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintStart_toEndOf="@+id/txtapp"
+        app:layout_constraintTop_toBottomOf="@+id/txttitulocom" />
 
     <TextView
             android:id="@+id/textView"
@@ -124,7 +124,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/txtapp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="36dp"
