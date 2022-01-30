@@ -54,5 +54,7 @@
     <string name="tst_instfoot"> Le Deseamos la mejor experiencia con nuestro servicio!!!!!!!!!!        \\(^-^)/</string>
     <string name="t">TODO</string>
     <string name="todo">TODO</string>
+    <string name="txtxrecibemensaje"> Sus datos apareceran aqui: </string>
+    <string name="btn_siguiente2"> Siguiente </string>
 
 </resources>

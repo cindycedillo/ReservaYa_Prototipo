@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.reservaya.reservaya_prototipo" >
+    package="com.reservaya.reservaya_prototipo">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ReservaYa_Prototipo" >
+        android:theme="@style/Theme.ReservaYa_Prototipo">
+        <activity
+            android:name=".RecibeFormulario"
+            android:exported="false"
+            android:parentActivityName=".Formulario" />
         <activity
             android:name=".activity_instrucciones"
             android:exported="false" />
@@ -24,8 +28,8 @@
             android:parentActivityName=".MenuReservas" />
         <activity
             android:name=".MenuReservas"
-            android:parentActivityName=".Activity_menuOpciones"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".Activity_menuOpciones" />
         <activity
             android:name=".Activity_mapa"
             android:exported="false" />
@@ -41,7 +45,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

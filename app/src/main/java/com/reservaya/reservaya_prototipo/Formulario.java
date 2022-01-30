@@ -15,26 +15,62 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 public class Formulario extends AppCompatActivity {
+
+    EditText txtusuariocliente,txtnombrecliente,txtapellidocliente,txtnumerocontacto,txtdireccioncliente;
+    Spinner cmbx_establecimientio;
+
 
     private Button btnenviar;
     private PendingIntent pendingIntent;
     private final static String CHANNEL_ID = "Notificacion";
     private final static int NOTIFICACION_ID = 0;
 
+
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_formulario);
+        txtusuariocliente = findViewById(R.id.txtusuariocliente);
+        txtnombrecliente = findViewById(R.id.txtnombrecliente);
+        txtapellidocliente = findViewById(R.id.txtapellidocliente);
+        txtnumerocontacto = findViewById(R.id.txtnumerocontacto);
+        cmbx_establecimientio = findViewById(R.id.cmbx_establecimientio);
+        txtdireccioncliente = findViewById(R.id.txtdireccioncliente);
+
+
         btnenviar = findViewById(R.id.btnenviar);
-        btnenviar.setOnClickListener(new View.OnClickListener(){
+
+        btnenviar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setPendingIntent();
                 createNotificationChannel();
                 createNotification();
-                startActivity(new Intent(Formulario.this,ComprobanteReserva.class));
+
+                if(txtusuariocliente.getText().toString().equals("")|| txtnombrecliente.getText().toString().equals("")|| txtapellidocliente.getText().toString().equals("")){
+                    Toast.makeText(Formulario.this,"Debe ingresar su Nombre y Apellido",Toast.LENGTH_LONG).show();
+                } else {
+                    Intent intent = new Intent(Formulario.this,RecibeFormulario.class);
+
+                    intent.putExtra("txtusuariocliente",txtusuariocliente.getText().toString());
+                    intent.putExtra("txtnombrecliente",txtnombrecliente.getText().toString());
+                    intent.putExtra("txtapellidocliente",txtapellidocliente.getText().toString());
+                    intent.putExtra("txtnumerocliente",txtnumerocontacto.getText().toString());
+                    intent.putExtra("cmbx_establecimientio",cmbx_establecimientio.getSelectedItem().toString());
+                    intent.putExtra("txtdireccioncliente",txtdireccioncliente.getText().toString());
+
+                    startActivity(intent);
+
+
+                }
             }
         });
     }
@@ -70,6 +106,8 @@ public class Formulario extends AppCompatActivity {
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(getApplicationContext());
         notificationManagerCompat.notify(NOTIFICACION_ID, builder.build());
     }
+
+
 
 
 
