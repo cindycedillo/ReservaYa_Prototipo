@@ -23,12 +23,12 @@ import android.widget.Toast;
 public class RecibeFormulario extends AppCompatActivity {
 
     TextView txtxrecibemensaje;
-    /*
+
     ImageView imageViewcaptura;
     ImageButton buttonCamara1;
 
     private static final int REQUEST_PERMISSION_CAMERA= 100;
-    private static final int REQUEST_IMAGE_CAMERA= 101;*/
+    private static final int REQUEST_IMAGE_CAMERA= 101;
 
 
     @Override
@@ -41,7 +41,7 @@ public class RecibeFormulario extends AppCompatActivity {
                 + "\nApellido: "+ getIntent().getStringExtra("txtapellidocliente")+ "\nNumero: "+ getIntent().getStringExtra("txtnumerocliente")
                 + "\nDireccion: "+ getIntent().getStringExtra("txtdireccioncliente")+ "\nEstablecimiento: "+ getIntent().getStringExtra("cmbx_establecimientio");
         txtxrecibemensaje.setText(datos);
-       /* buttonCamara1 = findViewById(R.id.buttonCamara);
+        buttonCamara1 = findViewById(R.id.buttonCamara);
         buttonCamara1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,10 +58,10 @@ public class RecibeFormulario extends AppCompatActivity {
                 }
 
             }
-        });*/
+        });
     }
 
-    /*@Override
+    @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         if(requestCode == REQUEST_PERMISSION_CAMERA){
             if(permissions.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED){
@@ -100,7 +100,7 @@ public class RecibeFormulario extends AppCompatActivity {
 
         }
 
-    }*/
+    }
 
     public void irActivity2( View view){
         //creo el enlace con el segundo activity
