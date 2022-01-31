@@ -32,6 +32,10 @@ public class activity_iniciarSesion extends AppCompatActivity {
                 startActivity(new Intent(activity_iniciarSesion.this, activity_instrucciones.class));
             }
         });
-    }
 
+
+    }
+    public void regresar(View v){
+        startActivity(new Intent(activity_iniciarSesion.this,activity_pantallaInicial.class));
+    }
 }

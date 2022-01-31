@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
         android:backgroundTint="@color/kio"
+        android:onClick="regresar"
         android:text="@string/Cancelar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

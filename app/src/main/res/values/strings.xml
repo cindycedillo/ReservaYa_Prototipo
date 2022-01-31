@@ -53,8 +53,17 @@
     <string name="salir">X</string>
     <string name="tst_instfoot"> Le Deseamos la mejor experiencia con nuestro servicio!!!!!!!!!!        \\(^-^)/</string>
     <string name="t">TODO</string>
-    <string name="todo">TODO</string>
     <string name="txtxrecibemensaje"> Sus datos apareceran aqui: </string>
     <string name="btn_siguiente2"> Siguiente </string>
-
+    <string name="perfil">Perfil</string>
+    <string name="num_tarjeta">Numero de Tarjeta:</string>
+    <string name="txt_tarvisa">Visa</string>
+    <string name="txt_tarmast">Mastercard</string>
+    <string name="txt_tarotra">Otra</string>
+    <string name="pantalla_registro">Formulario de Registro</string>
+    <string name="correo">Correo:</string>
+    <string name="num_idetificacion">Nº Documento de Identificación:</string>
+    <string name="telefono_celular">Telefono/Celular:</string>
+    <string name="terminos_condiciones">Recuerda: si te registras, aceptas nuestra política de privacidad y nuestros términos de servicio.</string>
+    <string name="todo">TODO</string>
 </resources>
